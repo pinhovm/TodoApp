@@ -17,7 +17,9 @@ import model.Task;
  * @author vito
  */
 public class TaskDialogScreen extends javax.swing.JDialog {
+   
 
+   //codigo adicionado manualmente
    TaskController controller;
    Project project;
    public TaskDialogScreen(java.awt.Frame parent, boolean modal) {
@@ -157,7 +159,10 @@ public class TaskDialogScreen extends javax.swing.JDialog {
    private void jFormattedTextDeadlineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jFormattedTextDeadlineActionPerformed
       // TODO add your handling code here:
    }//GEN-LAST:event_jFormattedTextDeadlineActionPerformed
+   
 
+
+   //Código adicionado manualmente
    private void jLabelTaskIconMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelTaskIconMouseClicked
       try {
          Task task = new Task();
@@ -213,7 +218,9 @@ public class TaskDialogScreen extends javax.swing.JDialog {
    private javax.swing.JTextArea jTextAreaNotes;
    private javax.swing.JTextField jTextFieldTaskName;
    // End of variables declaration//GEN-END:variables
+   
 
+   // codigo adicionado manualmente
    public void setProject(Project project) {
       this.project = project;
    }

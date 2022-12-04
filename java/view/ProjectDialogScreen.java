@@ -14,7 +14,9 @@ import model.Project;
  * @author vito
  */
 public class ProjectDialogScreen extends javax.swing.JDialog {
-
+   
+   
+   //codigo adicionado manualmente
    ProjectController controller;
 
    public ProjectDialogScreen(java.awt.Frame parent, boolean modal) {
@@ -147,7 +149,10 @@ public class ProjectDialogScreen extends javax.swing.JDialog {
    private void jTextFieldNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNameActionPerformed
       // TODO add your handling code here:
    }//GEN-LAST:event_jTextFieldNameActionPerformed
-
+   
+   
+   
+   //codigo adicionado manualmente
    private void jLabelProjectToolbarSaveMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabelProjectToolbarSaveMouseClicked
      
       try {
