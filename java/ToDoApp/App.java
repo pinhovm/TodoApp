@@ -6,6 +6,7 @@ package ToDoApp;
 import controller.ProjectController;
 import java.util.Calendar;
 import model.Project;
+import view.Home;
 
 
 
@@ -14,14 +15,6 @@ public class App {
    
    
    public static void main(String[] args) {
-      Calendar cal = Calendar.getInstance();
-      ProjectController projectCtrlr = new ProjectController();
-      
-      Project project = new Project();
-      project.setName("Projeto 2");
-      project.setDescription("segundo PRojeto ");
-      project.setCreatedAt(cal.getTime());
-      project.setUpdatedAt(cal.getTime());
-      projectCtrlr.save(project);
+      Home home = new Home();
    }
 }
